@@ -12,7 +12,6 @@ USERS: Dict[str, Dict[str, str]] = {
 
 }
 
- 
 
 def get_user(username: str):
 
