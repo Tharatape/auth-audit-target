@@ -21,3 +21,7 @@ Installation & Setup
 
 - for all api test is type command pytest
 and you could run vuln2.py and vuln3.py to check vuln 2&3 in proof
+
+-
+# next step
+I'll be building an audit tool against this target in upcoming work
