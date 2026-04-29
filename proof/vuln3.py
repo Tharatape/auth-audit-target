@@ -34,7 +34,7 @@ print(decoded_data)
 print(forged_token)
 
 curl_dashboard = [
-    'curl', '-s',
+    'curl',
     '-H', f'Authorization: Bearer {forged_token}', 
     'http://localhost:8000/me'
 ]
